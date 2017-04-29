@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function left_sort(a,z){
+			var i;
+			var j;
+			var k = 0;
+			var b = new Array();
+			for(i = z,j = 0;j<a.length-z;i++,j++){
+				b[j] = a[i];
+				}
+			while(j>=a.length-z&&j<a.length){
+					b[j] = a[k];
+					k ++;
+					j ++;
+				}
+			return b;
+		}
+		var arr="happyness";
+		console.log(left_sort(arr,3));
+	</script>
+</body>
+</html>
