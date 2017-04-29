@@ -1,0 +1,165 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+img{
+	border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+.in_bt_2{
+	width: 100%;
+}
+.biao{
+	z-index: 100;
+	position: relative; 
+	top: 25px;
+}
+#container{
+	width: 100%;
+	height: 800px;
+	background-color: black;
+
+}
+.top{
+	background-color: black;
+	width:100%;
+	height: 96px;
+}
+.logo_l{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.logo_r{
+	float:right;
+	margin-top: 10px;
+}
+.content{
+	width: 99%;
+	height: 480px;
+}
+
+.content_up{
+	height: 50%;
+	width: 100%;
+	background-color: red;
+	margin-left: 5px;
+
+}
+.content_up div{
+	float: left;
+	height: 100%; 
+}
+
+.content_down{
+	height: 50%;
+	width: 100%;
+	background-color: yellow;
+	margin-left: 5px;
+}
+.content_down div{
+	float: left;
+	height: 100%;
+}
+.content_new{
+	height: 60px;
+	background-color: blue;
+	width: 99%;
+	margin:0 auto;
+	color: #FFFFFF;
+    background-color: #333333;
+}
+.in_news{
+	font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 44px;
+    color: #999999;
+    float: left;
+    height: 44px;
+    width: 70px;
+    margin-left: 10px;
+}
+.in_news_content{
+	font-size: 14px;
+    line-height: 44px;
+    float: left;
+    height: 44px;
+}
+.news_r{
+	float: right;
+}
+.news_r_l{
+	float: left;
+	margin-top: 6px;
+	margin-right: 10px;
+}
+.news_r_r{
+	float: right;
+	height: 30px;
+    top: 214px;
+    width: 240px;
+    margin-top: 6px;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    line-height: 30px;
+    z-index: 8888;
+}
+.news_r_r a,.foot_l a{
+	text-decoration: none;
+	color: white;
+}
+
+.footing{
+	font-family: "微软雅黑";
+    font-size: 12px;
+    line-height: 40px;
+    color: #CCC;
+    height: 40px;
+    width: 99%;
+	background-color: black;
+	height: 40px;
+	margin:0 auto;
+}
+.foot_l{
+	float: left;
+    width: auto;
+    margin-left: 20px;
+}
+.foot_l a:hover{
+	color: orange;
+}
+.news_r_r ul li{
+	float:left; 
+	display:block;  
+	position: relative;
+	width: 100px;
+	text-align: left;
+	height: 30px;
+	color: #E8E8E8;
+    background-color: #000000;
+    margin-right: 6px;
+}
+ul li:hover{
+	background: grey;
+}
+ul li ul li{
+	float: none;
+}
+ul li ul{
+	position: absolute;
+	left: 0; 
+	display: none;
+}
+ul li ul li:hover{
+	background: #333333;
+}
+ul li:hover ul{
+	display: block;
+}
+.foot_r{
+	float: right;
+	color: white;
+}
