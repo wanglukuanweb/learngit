@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#canvas{
+	background-image: url(night.jpg);
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 25px;
+}
+.div1{
+	background-color: #191970;
+	width :800px;
+	height: 25px;
+	color:#FFFF00;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+p{
+	margin: auto;
+	width:300px;
+}
